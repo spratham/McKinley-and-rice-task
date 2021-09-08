@@ -10,3 +10,4 @@ contract MyToken {
        require(msg.sender == minter); // if there is someone who is not the minter and try to mint then none of the code will executed
        balances[receiver] += amount;  // Initially everones balance would be 0 sohere we increase the balance by of amount we are minting
    }
+   }
